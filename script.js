@@ -40,8 +40,8 @@ const trEle = document.createElement("tr");
 [
   "Name",
   "ISBN",
-  "No. of Pages",
   "Authors",
+  "No. of Pages", 
   "Publisher",
   "Released Date",
 ].forEach((columnName) => {
@@ -82,8 +82,8 @@ const getbooks = async () => {
       const details = [
         "name",
         "isbn",
-        "numberOfPages",
         "authors",
+        "numberOfPages",        
         "publisher",
         "released",
       ].map((values) => book[values]);
